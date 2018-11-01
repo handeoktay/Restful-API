@@ -1,0 +1,18 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "Node.js Restful API project (Build a simple shop API)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hande Oktay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.4",
+    "morgan": "^1.9.1"
+  }
+}
